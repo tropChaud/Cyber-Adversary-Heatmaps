@@ -8,6 +8,8 @@ The following heatmap sets are currently available:
 * April 2022: [CISA Alert AA22-110A](https://github.com/tropChaud/Cyber-Adversary-Heatmaps/tree/main/CISA%20Alert%20AA22-110A)
 * March 2022: [Russia TTP Mappings](https://github.com/tropChaud/Cyber-Adversary-Heatmaps/tree/main/Russia-TTP-Mappings)
 
+Want to learn more about using the ATT&CK Navigator to visualize TTP intelligence? See the MITRE ATT&CK CTI Training [here](https://attack.mitre.org/resources/training/cti/), and ATT&CK Navigator documentation [here](https://github.com/mitre-attack/attack-navigator/blob/master/USAGE.md).
+
 Unless otherwise noted, heatmaps will use the following base ATT&CK Navigator settings:
 
 	{
