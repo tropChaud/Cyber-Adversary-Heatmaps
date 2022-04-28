@@ -6,7 +6,7 @@
 		"layer": "4.3"
 	},
 	"domain": "enterprise-attack",
-	"description": "https://www.cisa.gov/uscert/ncas/alerts/aa22-110a\n\nThe alert seems to combine TTPs from both \"Dragonfly\" groups defined by MITRE:\nhttps://attack.mitre.org/versions/v10/groups/G0074/\nhttps://attack.mitre.org/versions/v10/groups/G0035/\n\nPaste .json file contents into the \"Threat Intelligence\" dropdown here to instantly surface technical & policy controls and unit tests for these techniques: https://controlcompass.github.io/risk\n\nCompiled by TropChaud April 2022. See more at https://github.com/tropChaud/Cyber-Adversary-Heatmaps",
+	"description": "https://www.cisa.gov/uscert/ncas/alerts/aa22-110a\n\nThe alert seems to combine TTPs from both \"Dragonfly\" groups defined by MITRE:\nhttps://attack.mitre.org/versions/v10/groups/G0074/\nhttps://attack.mitre.org/versions/v10/groups/G0035/\n\nPaste .json file contents into the \"Threat Intelligence\" dropdown here to instantly surface technical & policy controls and unit tests aligned with these techniques: https://controlcompass.github.io/risk\n\nCompiled by TropChaud April 2022. See more at https://github.com/tropChaud/Cyber-Adversary-Heatmaps",
 	"filters": {
 		"platforms": [
 			"Linux",
