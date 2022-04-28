@@ -1,0 +1,150 @@
+{
+	"name": "DEV-0586 / WhisperGate",
+	"versions": {
+		"attack": "10",
+		"navigator": "4.5.5",
+		"layer": "4.3"
+	},
+	"domain": "enterprise-attack",
+	"description": "DEV-0586 TTPs used during the WhisperGate campaign, sourced from Picus Security reporting: https://www.picussecurity.com/resource/blog/dev-0586-apt-group-in-whispergate-attack-targeting-ukraine",
+	"filters": {
+		"platforms": [
+			"Linux",
+			"macOS",
+			"Windows",
+			"Azure AD",
+			"Office 365",
+			"SaaS",
+			"IaaS",
+			"Google Workspace",
+			"PRE",
+			"Network",
+			"Containers"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "sum",
+		"showID": false,
+		"showName": true,
+		"showAggregateScores": true,
+		"countUnscored": false
+	},
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1059.001",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "Source: Picus Security - https://www.picussecurity.com/resource/blog/dev-0586-apt-group-in-whispergate-attack-targeting-ukraine",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.003",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "Source: Picus Security - https://www.picussecurity.com/resource/blog/dev-0586-apt-group-in-whispergate-attack-targeting-ukraine",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1561",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "Source: Picus Security - https://www.picussecurity.com/resource/blog/dev-0586-apt-group-in-whispergate-attack-targeting-ukraine",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1083",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "Source: Picus Security - https://www.picussecurity.com/resource/blog/dev-0586-apt-group-in-whispergate-attack-targeting-ukraine",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1105",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "Source: Picus Security - https://www.picussecurity.com/resource/blog/dev-0586-apt-group-in-whispergate-attack-targeting-ukraine",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Source: Picus Security - https://www.picussecurity.com/resource/blog/dev-0586-apt-group-in-whispergate-attack-targeting-ukraine",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1542",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1542.003",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "Source: Picus Security - https://www.picussecurity.com/resource/blog/dev-0586-apt-group-in-whispergate-attack-targeting-ukraine",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542.003",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "Source: Picus Security - https://www.picussecurity.com/resource/blog/dev-0586-apt-group-in-whispergate-attack-targeting-ukraine",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#599bceff",
+			"#004a80ff"
+		],
+		"minValue": 0,
+		"maxValue": 2
+	},
+	"legendItems": [],
+	"metadata": [],
+	"links": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false
+}
