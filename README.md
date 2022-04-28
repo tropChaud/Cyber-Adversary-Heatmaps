@@ -5,7 +5,7 @@ Paste .json file contents into the "Threat Intelligence" dropdown on the **[Thre
 
 The following heatmap sets are currently available:
 
-* April 2022: [CISA Alert AA22-110A]()
+* April 2022: [CISA Alert AA22-110A](https://github.com/tropChaud/Cyber-Adversary-Heatmaps/tree/main/CISA%20Alert%20AA22-110A)
 * March 2022: [Russia TTP Mappings](https://github.com/tropChaud/Cyber-Adversary-Heatmaps/tree/main/Russia-TTP-Mappings)
 
 Unless otherwise noted, heatmaps will use the following base ATT&CK Navigator settings:
