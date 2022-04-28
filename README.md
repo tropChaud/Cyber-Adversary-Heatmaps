@@ -11,7 +11,7 @@ The following heatmap sets are currently available:
 Unless otherwise noted, heatmaps will use the following base ATT&CK Navigator settings:
 
 <code>
-	{
+{
 	"name": "base",
 	"versions": {
 		"attack": "11",
@@ -61,7 +61,7 @@ Unless otherwise noted, heatmaps will use the following base ATT&CK Navigator se
 	"tacticRowBackground": "#dddddd",
 	"selectTechniquesAcrossTactics": true,
 	"selectSubtechniquesWithParent": false
-	}
+}
 </code>
 
 MITRE ATT&CK® is a registered trademark of The MITRE Corporation
