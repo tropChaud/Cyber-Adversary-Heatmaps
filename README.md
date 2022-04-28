@@ -1,12 +1,12 @@
 # Cyber Adversary Heatmaps
 Intelligence around common attacker behaviors (MITRE ATT&amp;CK TTPs), in the form of ATT&amp;CK Navigator "layer" json files.
 
-Paste .json file contents into the "Threat Intelligence" dropdown on the [Threat Alignment](https://controlcompass.github.io/risk) page of the open-source [Control Validation Compass](https://controlcompass.github.io/) project, to instantly surface technical & policy controls and offensive security tests for these techniques.
+Paste .json file contents into the "Threat Intelligence" dropdown on the **[Threat Alignment page](https://controlcompass.github.io/risk)** of the open-source [Control Validation Compass](https://controlcompass.github.io/) project, to instantly surface technical & policy controls and offensive security tests for these techniques.
 
 The following heatmap sets are currently available:
 
 * April 2022: [CISA Alert AA22-110A]()
-* March 2022: [Russia TTP Mappings](https://github.com/tropChaud/Russia-TTP-Mappings)
+* March 2022: [Russia TTP Mappings](https://github.com/tropChaud/Cyber-Adversary-Heatmaps/tree/main/Russia-TTP-Mappings)
 
 Unless otherwise noted, heatmaps will use the following base ATT&CK Navigator settings:
 
