@@ -1,0 +1,129 @@
+{
+	"name": "Recorded Future 2021 Malware and TTP Threat Landscape",
+	"versions": {
+		"attack": "11",
+		"navigator": "4.6.1",
+		"layer": "4.3"
+	},
+	"domain": "enterprise-attack",
+	"description": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0315.pdf\n\nPaste .json file contents into the \"Threat Intelligence\" dropdown here to instantly surface technical & policy controls and unit tests aligned with these techniques: https://controlcompass.github.io/risk\n\nCompiled by TropChaud April 2022. See more at https://github.com/tropChaud/Cyber-Adversary-Heatmaps",
+	"filters": {
+		"platforms": [
+			"Linux",
+			"macOS",
+			"Windows",
+			"PRE",
+			"Containers",
+			"Network",
+			"Office 365",
+			"SaaS",
+			"Google Workspace",
+			"IaaS",
+			"Azure AD"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "max",
+		"showID": false,
+		"showName": true,
+		"showAggregateScores": true,
+		"countUnscored": false
+	},
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1486",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1082",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1005",
+			"tactic": "collection",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1190",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ffffffff",
+			"#ff6666ff"
+		],
+		"minValue": 0,
+		"maxValue": 1
+	},
+	"legendItems": [],
+	"metadata": [],
+	"links": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false
+}
