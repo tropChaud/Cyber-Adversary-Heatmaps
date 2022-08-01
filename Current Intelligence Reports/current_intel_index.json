@@ -1,4 +1,7 @@
 [
+    {   "title": "Stealer Malware Roundup",
+        "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/Stealer%20Malware/combined.json"
+    },
     {
         "title": "CISA Alert AA22-110A: Russian State-Sponsored and Criminal Cyber Threats to Critical Infrastructure (April 2022)",
         "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/CISA%20Alert%20AA22-110A/combined.json"
