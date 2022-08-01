@@ -1,0 +1,22 @@
+[
+    {
+        "title": "CISA Alert AA22-110A: Russian State-Sponsored and Criminal Cyber Threats to Critical Infrastructure (April 2022)",
+        "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/CISA%20Alert%20AA22-110A/combined.json"
+    },
+    {
+        "title": "Red Canary 2022 Threat Detection Report (March 2022)",
+        "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/Red%20Canary%202022%20Threat%20Detection%20Report/Red_Canary_2022_Threat_Detection_Report.json"
+    },
+    {
+        "title": "Recorded Future 2021 Malware and TTP Threat Landscape (March 2022)",
+        "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/Recorded_Future_2021_Malware_and_TTP_Threat_Landscape/Recorded_Future_2021_Malware_and_TTP_Threat_Landscape.json"
+    },
+    {
+        "title": "2022 Russia-Ukraine War: Cyber Risk (ATT&CK TTPs) (March 2022)",
+        "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/Russia-TTP-Mappings/combined-sorted.json"
+    },
+    {
+        "title": "Recorded Future 5 Common Ransomware ATT&CK Techniques (December 2021)",
+        "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/Recorded_Future_5_Common_Ransomware_ATT%26CK_Techniques/Recorded_Future_5_Common_Ransomware_ATT%26CK_Techniques.json"
+    }  
+]
