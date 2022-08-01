@@ -1,0 +1,76 @@
+{
+    "name": "Karakurt Data Extortion Group | CISA",
+    "versions": {
+        "attack": "11",
+        "navigator": "4.6.1",
+        "layer": "4.3"
+    },
+    "domain": "enterprise-attack",
+    "description": "Heatmap of (sub)techniques mentioned in \"Karakurt Data Extortion Group | CISA\".\n\nSource: https://www.cisa.gov/uscert/ncas/alerts/aa22-152a",
+    "techniques": [
+        {
+            "techniqueID": "T1591.002",
+            "score": 2
+        },
+        {
+            "techniqueID": "T1589.001",
+            "score": 3
+        },
+        {
+            "techniqueID": "T1589.002",
+            "score": 2
+        },
+        {
+            "techniqueID": "T1133",
+            "score": 3
+        },
+        {
+            "techniqueID": "T1190",
+            "score": 3
+        },
+        {
+            "techniqueID": "T1566",
+            "score": 2
+        },
+        {
+            "techniqueID": "T1566.001",
+            "score": 2
+        },
+        {
+            "techniqueID": "T1078",
+            "score": 4
+        },
+        {
+            "techniqueID": "T1083",
+            "score": 2
+        },
+        {
+            "techniqueID": "T1219",
+            "score": 2
+        },
+        {
+            "techniqueID": "T1048",
+            "score": 2
+        },
+        {
+            "techniqueID": "T1567.002",
+            "score": 2
+        }
+    ],
+    "layout": {
+        "layout": "side",
+        "aggregateFunction": "max",
+        "showID": false,
+        "showName": true,
+        "showAggregateScores": true,
+        "countUnscored": false
+    },
+    "gradient": {
+        "colors": [
+            "#ffffff",
+            "#ff6666"
+        ],
+        "minValue": 0,
+        "maxValue": 4
+    }
+}
