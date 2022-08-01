@@ -5,6 +5,7 @@ Paste .json file contents into the "Threat Intelligence" dropdown on the **[Thre
 
 The following heatmap sets are currently available:
 
+* June 2022: [Stealer Malware Roundup](https://github.com/tropChaud/Cyber-Adversary-Heatmaps/tree/main/Stealer%20Malware)
 * April 2022: [CISA Alert AA22-110A](https://github.com/tropChaud/Cyber-Adversary-Heatmaps/tree/main/CISA%20Alert%20AA22-110A)
 * March 2022: [Red Canary 2022 Threat Detection Report](https://github.com/tropChaud/Cyber-Adversary-Heatmaps/tree/main/Red%20Canary%202022%20Threat%20Detection%20Report)
 * March 2022: [Recorded Future 2021 Malware and TTP Threat Landscape](https://github.com/tropChaud/Cyber-Adversary-Heatmaps/blob/main/Recorded_Future_2021_Malware_and_TTP_Threat_Landscape/Recorded_Future_2021_Malware_and_TTP_Threat_Landscape.json)
