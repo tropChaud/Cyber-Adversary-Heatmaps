@@ -1,4 +1,10 @@
 [
+    {   "title": "The DFIR Report BumbleBee Roasts Its Way to Domain Admin (August 2022)",
+        "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/Current%20Intelligence%20Reports/BumbleBee%20Roasts%20Its%20Way%20to%20Domain%20Admin%20%E2%80%93%20The%20DFIR%20Report.json"
+    },
+    {   "title": "LockBit 3.0 Update | Unpicking the Ransomware's Latest Anti-Analysis and Evasion Techniques - SentinelOne (July 2022)",
+        "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/Current%20Intelligence%20Reports/LockBit%203.0%20Update%20%20Unpicking%20the%20Ransomware's%20Latest%20Anti-Analysis%20and%20Evasion%20Techniques%20-%20SentinelOne.json"
+    },
     {   "title": "The DFIR Report SELECT XMRig FROM SQLServer (July 2022)",
         "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/Current%20Intelligence%20Reports/SELECT%20XMRig%20FROM%20SQLServer.json"
     },
