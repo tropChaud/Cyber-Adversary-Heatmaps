@@ -1,4 +1,7 @@
 [
+    {   "title": "CISA Alert AA22-216A: 2021 Top Malware Strains - All Malware TTPs Combined (August 2022)",
+        "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/CISA%20Alert%20AA22-216A/CISA_Alert_AA22-216A_-_All_Malware_Combined_sorted.json"
+    },
     {   "title": "The DFIR Report BumbleBee Roasts Its Way to Domain Admin (August 2022)",
         "url": "https://raw.githubusercontent.com/tropChaud/Cyber-Adversary-Heatmaps/main/Current%20Intelligence%20Reports/BumbleBee%20Roasts%20Its%20Way%20to%20Domain%20Admin%20%E2%80%93%20The%20DFIR%20Report.json"
     },
