@@ -1,0 +1,778 @@
+ATT&CK Technique,TTP Count (Total - CISA Report Malware),D3FEND Technique
+T1001,2,Client-server Payload Profiling
+T1001,2,Network Traffic Community Deviation
+T1001,2,Per Host Download-Upload Ratio Analysis
+T1001,2,Protocol Metadata Anomaly Detection
+T1001,2,Relay Pattern Analysis
+T1001,2,User Geolocation Logon Pattern Analysis
+T1001,2,Remote Terminal Session Detection
+T1001,2,Outbound Traffic Filtering
+T1001,2,Inbound Traffic Filtering
+T1003.001,1,Process Termination
+T1003.001,1,Software Update
+T1003.001,1,Authentication Cache Invalidation
+T1003.001,1,Credential Transmission Scoping
+T1003.001,1,Process Lineage Analysis
+T1003.001,1,Hardware-based Process Isolation
+T1003.001,1,Mandatory Access Control
+T1003.001,1,Service Binary Verification
+T1003.001,1,Process Spawn Analysis
+T1003.001,1,Process Self-Modification Detection
+T1003.001,1,Credential Compromise Scope Analysis
+T1003.001,1,Decoy User Credential
+T1005,4,no defensive relations yet
+T1007,2,no defensive relations yet
+T1008,1,Protocol Metadata Anomaly Detection
+T1008,1,Relay Pattern Analysis
+T1008,1,Remote Terminal Session Detection
+T1008,1,Client-server Payload Profiling
+T1008,1,Network Traffic Community Deviation
+T1008,1,User Geolocation Logon Pattern Analysis
+T1008,1,Inbound Traffic Filtering
+T1008,1,Outbound Traffic Filtering
+T1008,1,Per Host Download-Upload Ratio Analysis
+T1010,1,no defensive relations yet
+T1012,3,no defensive relations yet
+T1016,6,no defensive relations yet
+T1018,3,no defensive relations yet
+T1021.001,1,Outbound Traffic Filtering
+T1021.001,1,Inbound Traffic Filtering
+T1021.001,1,Remote Terminal Session Detection
+T1021.001,1,Client-server Payload Profiling
+T1021.001,1,Network Traffic Community Deviation
+T1021.001,1,Per Host Download-Upload Ratio Analysis
+T1021.001,1,Protocol Metadata Anomaly Detection
+T1021.001,1,Connection Attempt Analysis
+T1021.001,1,User Geolocation Logon Pattern Analysis
+T1021.005,1,Client-server Payload Profiling
+T1021.005,1,Connection Attempt Analysis
+T1021.005,1,Network Traffic Community Deviation
+T1021.005,1,Per Host Download-Upload Ratio Analysis
+T1021.005,1,Protocol Metadata Anomaly Detection
+T1021.005,1,Remote Terminal Session Detection
+T1021.005,1,User Geolocation Logon Pattern Analysis
+T1021.005,1,Inbound Traffic Filtering
+T1021.005,1,Outbound Traffic Filtering
+T1021.006,1,Client-server Payload Profiling
+T1021.006,1,Connection Attempt Analysis
+T1021.006,1,Network Traffic Community Deviation
+T1021.006,1,Per Host Download-Upload Ratio Analysis
+T1021.006,1,Protocol Metadata Anomaly Detection
+T1021.006,1,Remote Terminal Session Detection
+T1021.006,1,User Geolocation Logon Pattern Analysis
+T1021.006,1,Inbound Traffic Filtering
+T1021.006,1,Outbound Traffic Filtering
+T1027,9,Emulated File Analysis
+T1027,9,Dynamic Analysis
+T1027,9,Local File Permissions
+T1027,9,Executable Allowlisting
+T1027,9,Decoy File
+T1027,9,Executable Denylisting
+T1027,9,File Analysis
+T1027.001,1,Emulated File Analysis
+T1027.001,1,Dynamic Analysis
+T1027.001,1,File Analysis
+T1027.001,1,Local File Permissions
+T1027.001,1,Executable Allowlisting
+T1027.001,1,Executable Denylisting
+T1027.001,1,Decoy File
+T1027.002,3,Decoy File
+T1027.002,3,Emulated File Analysis
+T1027.002,3,Dynamic Analysis
+T1027.002,3,File Analysis
+T1027.002,3,Local File Permissions
+T1027.002,3,Executable Allowlisting
+T1027.002,3,Executable Denylisting
+T1027.005,1,no defensive relations yet
+T1033,6,no defensive relations yet
+T1036,2,System Call Analysis
+T1036,2,Emulated File Analysis
+T1036,2,Dynamic Analysis
+T1036,2,File Analysis
+T1036,2,Decoy File
+T1036,2,Executable Allowlisting
+T1036,2,System File Analysis
+T1036,2,Scheduled Job Analysis
+T1036,2,Executable Denylisting
+T1036,2,Local File Permissions
+T1036,2,System Call Filtering
+T1036.005,1,System Call Filtering
+T1036.005,1,Decoy File
+T1036.005,1,File Analysis
+T1036.005,1,System Call Analysis
+T1036.005,1,Local File Permissions
+T1039,1,Decoy Network Resource
+T1041,5,Per Host Download-Upload Ratio Analysis
+T1041,5,Network Traffic Community Deviation
+T1041,5,Protocol Metadata Anomaly Detection
+T1041,5,Remote Terminal Session Detection
+T1041,5,Client-server Payload Profiling
+T1041,5,Certificate Analysis
+T1041,5,Local File Permissions
+T1041,5,Inbound Traffic Filtering
+T1041,5,Outbound Traffic Filtering
+T1041,5,User Geolocation Logon Pattern Analysis
+T1041,5,Decoy File
+T1041,5,File Analysis
+T1046,1,no defensive relations yet
+T1047,3,no defensive relations yet
+T1048.003,1,Relay Pattern Analysis
+T1048.003,1,Remote Terminal Session Detection
+T1048.003,1,Client-server Payload Profiling
+T1048.003,1,Network Traffic Community Deviation
+T1048.003,1,Protocol Metadata Anomaly Detection
+T1048.003,1,Per Host Download-Upload Ratio Analysis
+T1048.003,1,Inbound Traffic Filtering
+T1048.003,1,User Geolocation Logon Pattern Analysis
+T1048.003,1,Outbound Traffic Filtering
+T1049,1,no defensive relations yet
+T1053,2,Local File Permissions
+T1053,2,Decoy File
+T1053,2,File Analysis
+T1053,2,System Call Analysis
+T1053,2,Process Spawn Analysis
+T1053,2,Scheduled Job Analysis
+T1053,2,System Call Filtering
+T1053,2,Local File Permissions
+T1053,2,Decoy File
+T1053,2,File Analysis
+T1053,2,System Call Analysis
+T1053,2,Process Spawn Analysis
+T1053,2,Scheduled Job Analysis
+T1053,2,System Call Filtering
+T1053,2,Local File Permissions
+T1053,2,Decoy File
+T1053,2,File Analysis
+T1053,2,System Call Analysis
+T1053,2,Process Spawn Analysis
+T1053,2,Scheduled Job Analysis
+T1053,2,System Call Filtering
+T1053.005,4,Process Spawn Analysis
+T1053.005,4,System Call Analysis
+T1053.005,4,Scheduled Job Analysis
+T1053.005,4,System Call Filtering
+T1053.005,4,Process Spawn Analysis
+T1053.005,4,System Call Analysis
+T1053.005,4,Scheduled Job Analysis
+T1053.005,4,System Call Filtering
+T1053.005,4,Process Spawn Analysis
+T1053.005,4,System Call Analysis
+T1053.005,4,Scheduled Job Analysis
+T1053.005,4,System Call Filtering
+T1055,5,Decoy File
+T1055,5,File Analysis
+T1055,5,Dynamic Analysis
+T1055,5,Emulated File Analysis
+T1055,5,Process Spawn Analysis
+T1055,5,System Call Analysis
+T1055,5,Process Code Segment Verification
+T1055,5,Local File Permissions
+T1055,5,Executable Denylisting
+T1055,5,Executable Allowlisting
+T1055,5,Process Segment Execution Prevention
+T1055,5,Segment Address Offset Randomization
+T1055,5,System File Analysis
+T1055,5,Memory Boundary Tracking
+T1055,5,System Call Filtering
+T1055,5,Decoy File
+T1055,5,File Analysis
+T1055,5,Dynamic Analysis
+T1055,5,Emulated File Analysis
+T1055,5,Process Spawn Analysis
+T1055,5,System Call Analysis
+T1055,5,Process Code Segment Verification
+T1055,5,Local File Permissions
+T1055,5,Executable Denylisting
+T1055,5,Executable Allowlisting
+T1055,5,Process Segment Execution Prevention
+T1055,5,Segment Address Offset Randomization
+T1055,5,System File Analysis
+T1055,5,Memory Boundary Tracking
+T1055,5,System Call Filtering
+T1055.005,1,System Call Analysis
+T1055.005,1,System Call Filtering
+T1055.005,1,System Call Analysis
+T1055.005,1,System Call Filtering
+T1055.012,7,Memory Boundary Tracking
+T1055.012,7,Segment Address Offset Randomization
+T1055.012,7,Process Segment Execution Prevention
+T1055.012,7,Process Code Segment Verification
+T1055.012,7,Memory Boundary Tracking
+T1055.012,7,Segment Address Offset Randomization
+T1055.012,7,Process Segment Execution Prevention
+T1055.012,7,Process Code Segment Verification
+T1056,1,Process Segment Execution Prevention
+T1056,1,Segment Address Offset Randomization
+T1056,1,Software Update
+T1056,1,Memory Boundary Tracking
+T1056,1,Input Device Analysis
+T1056,1,IO Port Restriction
+T1056,1,Process Code Segment Verification
+T1056,1,Service Binary Verification
+T1056,1,Process Segment Execution Prevention
+T1056,1,Segment Address Offset Randomization
+T1056,1,Software Update
+T1056,1,Memory Boundary Tracking
+T1056,1,Input Device Analysis
+T1056,1,IO Port Restriction
+T1056,1,Process Code Segment Verification
+T1056,1,Service Binary Verification
+T1056.001,6,IO Port Restriction
+T1056.001,6,Input Device Analysis
+T1056.001,6,IO Port Restriction
+T1056.001,6,Input Device Analysis
+T1056.004,2,Memory Boundary Tracking
+T1056.004,2,Segment Address Offset Randomization
+T1056.004,2,Process Segment Execution Prevention
+T1056.004,2,Process Code Segment Verification
+T1056.004,2,Memory Boundary Tracking
+T1056.004,2,Segment Address Offset Randomization
+T1056.004,2,Process Segment Execution Prevention
+T1056.004,2,Process Code Segment Verification
+T1057,5,no defensive relations yet
+T1059,1,Executable Denylisting
+T1059,1,Executable Allowlisting
+T1059,1,Decoy File
+T1059,1,Dynamic Analysis
+T1059,1,Emulated File Analysis
+T1059,1,File Analysis
+T1059,1,Local File Permissions
+T1059.001,5,Decoy File
+T1059.001,5,File Analysis
+T1059.001,5,Dynamic Analysis
+T1059.001,5,Emulated File Analysis
+T1059.001,5,Local File Permissions
+T1059.001,5,Executable Allowlisting
+T1059.001,5,Executable Denylisting
+T1059.003,5,Decoy File
+T1059.003,5,File Analysis
+T1059.003,5,Dynamic Analysis
+T1059.003,5,Emulated File Analysis
+T1059.003,5,Local File Permissions
+T1059.003,5,Executable Allowlisting
+T1059.003,5,Executable Denylisting
+T1059.005,4,Decoy File
+T1059.005,4,File Analysis
+T1059.005,4,Dynamic Analysis
+T1059.005,4,Emulated File Analysis
+T1059.005,4,Local File Permissions
+T1059.005,4,Executable Allowlisting
+T1059.005,4,Executable Denylisting
+T1059.006,1,Decoy File
+T1059.006,1,File Analysis
+T1059.006,1,Dynamic Analysis
+T1059.006,1,Emulated File Analysis
+T1059.006,1,Local File Permissions
+T1059.006,1,Executable Allowlisting
+T1059.006,1,Executable Denylisting
+T1059.007,2,Decoy File
+T1059.007,2,File Analysis
+T1059.007,2,Dynamic Analysis
+T1059.007,2,Emulated File Analysis
+T1059.007,2,Local File Permissions
+T1059.007,2,Executable Allowlisting
+T1059.007,2,Executable Denylisting
+T1069,2,no defensive relations yet
+T1070.004,4,Decoy File
+T1070.004,4,File Analysis
+T1070.004,4,Local File Permissions
+T1071,1,Client-server Payload Profiling
+T1071,1,Per Host Download-Upload Ratio Analysis
+T1071,1,Network Traffic Community Deviation
+T1071,1,Certificate Analysis
+T1071,1,Decoy File
+T1071,1,Protocol Metadata Anomaly Detection
+T1071,1,Relay Pattern Analysis
+T1071,1,File Carving
+T1071,1,Remote Terminal Session Detection
+T1071,1,DNS Traffic Analysis
+T1071,1,User Geolocation Logon Pattern Analysis
+T1071,1,Inbound Traffic Filtering
+T1071,1,Outbound Traffic Filtering
+T1071,1,DNS Denylisting
+T1071,1,File Analysis
+T1071,1,Local File Permissions
+T1071,1,DNS Allowlisting
+T1071,1,Reverse Resolution IP Denylisting
+T1071,1,Forward Resolution Domain Denylisting
+T1071.001,7,Client-server Payload Profiling
+T1071.001,7,Network Traffic Community Deviation
+T1071.001,7,Relay Pattern Analysis
+T1071.001,7,Certificate Analysis
+T1071.001,7,Remote Terminal Session Detection
+T1071.001,7,Protocol Metadata Anomaly Detection
+T1071.001,7,Per Host Download-Upload Ratio Analysis
+T1071.001,7,File Analysis
+T1071.001,7,Decoy File
+T1071.001,7,User Geolocation Logon Pattern Analysis
+T1071.001,7,Local File Permissions
+T1071.001,7,Inbound Traffic Filtering
+T1071.001,7,Outbound Traffic Filtering
+T1071.003,1,Outbound Traffic Filtering
+T1071.003,1,Inbound Traffic Filtering
+T1071.003,1,Network Traffic Community Deviation
+T1071.003,1,Protocol Metadata Anomaly Detection
+T1071.003,1,Per Host Download-Upload Ratio Analysis
+T1071.003,1,Client-server Payload Profiling
+T1071.003,1,Remote Terminal Session Detection
+T1071.003,1,Certificate Analysis
+T1071.003,1,User Geolocation Logon Pattern Analysis
+T1071.003,1,File Analysis
+T1071.003,1,Local File Permissions
+T1071.003,1,Decoy File
+T1071.003,1,Relay Pattern Analysis
+T1071.004,1,Remote Terminal Session Detection
+T1071.004,1,DNS Traffic Analysis
+T1071.004,1,Network Traffic Community Deviation
+T1071.004,1,Client-server Payload Profiling
+T1071.004,1,Relay Pattern Analysis
+T1071.004,1,Per Host Download-Upload Ratio Analysis
+T1071.004,1,Certificate Analysis
+T1071.004,1,Protocol Metadata Anomaly Detection
+T1071.004,1,Outbound Traffic Filtering
+T1071.004,1,DNS Allowlisting
+T1071.004,1,Local File Permissions
+T1071.004,1,DNS Denylisting
+T1071.004,1,Inbound Traffic Filtering
+T1071.004,1,Reverse Resolution IP Denylisting
+T1071.004,1,Forward Resolution Domain Denylisting
+T1071.004,1,User Geolocation Logon Pattern Analysis
+T1071.004,1,File Analysis
+T1071.004,1,Decoy File
+T1074.001,2,no defensive relations yet
+T1080,1,Decoy Network Resource
+T1082,6,no defensive relations yet
+T1083,5,no defensive relations yet
+T1087,1,no defensive relations yet
+T1087.001,2,Strong Password Policy
+T1087.001,2,User Account Permissions
+T1087.001,2,Multi-factor Authentication
+T1087.001,2,One-time Password
+T1087.001,2,Local Account Monitoring
+T1087.001,2,Account Locking
+T1090,2,Per Host Download-Upload Ratio Analysis
+T1090,2,Remote Terminal Session Detection
+T1090,2,Client-server Payload Profiling
+T1090,2,Connection Attempt Analysis
+T1090,2,Network Traffic Community Deviation
+T1090,2,Relay Pattern Analysis
+T1090,2,Protocol Metadata Anomaly Detection
+T1090,2,User Geolocation Logon Pattern Analysis
+T1090,2,Inbound Traffic Filtering
+T1090,2,Outbound Traffic Filtering
+T1090.002,2,Network Traffic Community Deviation
+T1090.002,2,Per Host Download-Upload Ratio Analysis
+T1090.002,2,Protocol Metadata Anomaly Detection
+T1090.002,2,Client-server Payload Profiling
+T1090.002,2,User Geolocation Logon Pattern Analysis
+T1090.002,2,Relay Pattern Analysis
+T1090.002,2,Remote Terminal Session Detection
+T1090.002,2,Inbound Traffic Filtering
+T1090.002,2,Outbound Traffic Filtering
+T1090.003,1,Per Host Download-Upload Ratio Analysis
+T1090.003,1,Protocol Metadata Anomaly Detection
+T1090.003,1,Relay Pattern Analysis
+T1090.003,1,Remote Terminal Session Detection
+T1090.003,1,Network Traffic Community Deviation
+T1090.003,1,Outbound Traffic Filtering
+T1090.003,1,Inbound Traffic Filtering
+T1090.003,1,Client-server Payload Profiling
+T1090.003,1,User Geolocation Logon Pattern Analysis
+T1091,2,IO Port Restriction
+T1091,2,IO Port Restriction
+T1095,1,Network Traffic Community Deviation
+T1095,1,Per Host Download-Upload Ratio Analysis
+T1095,1,Protocol Metadata Anomaly Detection
+T1095,1,Client-server Payload Profiling
+T1095,1,Relay Pattern Analysis
+T1095,1,Remote Terminal Session Detection
+T1095,1,Inbound Traffic Filtering
+T1095,1,Outbound Traffic Filtering
+T1095,1,User Geolocation Logon Pattern Analysis
+T1105,9,Network Traffic Community Deviation
+T1105,9,Per Host Download-Upload Ratio Analysis
+T1105,9,Protocol Metadata Anomaly Detection
+T1105,9,Relay Pattern Analysis
+T1105,9,User Geolocation Logon Pattern Analysis
+T1105,9,Client-server Payload Profiling
+T1105,9,Remote Terminal Session Detection
+T1105,9,Inbound Traffic Filtering
+T1105,9,Outbound Traffic Filtering
+T1106,4,System Call Analysis
+T1106,4,System Call Filtering
+T1110,1,Remote Terminal Session Detection
+T1110,1,Protocol Metadata Anomaly Detection
+T1110,1,Connection Attempt Analysis
+T1110,1,Network Traffic Community Deviation
+T1110,1,Per Host Download-Upload Ratio Analysis
+T1110,1,Administrative Network Activity Analysis
+T1110,1,Client-server Payload Profiling
+T1110,1,Session Duration Analysis
+T1110,1,Credential Compromise Scope Analysis
+T1110,1,User Geolocation Logon Pattern Analysis
+T1110,1,Authentication Event Thresholding
+T1110,1,Resource Access Pattern Analysis
+T1110,1,Decoy User Credential
+T1110,1,Outbound Traffic Filtering
+T1110,1,Inbound Traffic Filtering
+T1110,1,Authentication Cache Invalidation
+T1110,1,Credential Transmission Scoping
+T1110.004,1,Administrative Network Activity Analysis
+T1110.004,1,Client-server Payload Profiling
+T1110.004,1,Remote Terminal Session Detection
+T1110.004,1,Network Traffic Community Deviation
+T1110.004,1,Per Host Download-Upload Ratio Analysis
+T1110.004,1,Connection Attempt Analysis
+T1110.004,1,Protocol Metadata Anomaly Detection
+T1110.004,1,Inbound Traffic Filtering
+T1110.004,1,Outbound Traffic Filtering
+T1110.004,1,User Geolocation Logon Pattern Analysis
+T1110.004,1,Authentication Event Thresholding
+T1110.004,1,Resource Access Pattern Analysis
+T1110.004,1,Session Duration Analysis
+T1112,9,no defensive relations yet
+T1113,5,no defensive relations yet
+T1114.001,1,Decoy File
+T1114.001,1,File Analysis
+T1114.001,1,Dynamic Analysis
+T1114.001,1,Emulated File Analysis
+T1114.001,1,Sender Reputation Analysis
+T1114.001,1,Sender MTA Reputation Analysis
+T1114.001,1,Homoglyph Detection
+T1114.001,1,Local File Permissions
+T1115,2,no defensive relations yet
+T1120,1,no defensive relations yet
+T1123,2,IO Port Restriction
+T1123,2,Input Device Analysis
+T1124,3,no defensive relations yet
+T1125,3,IO Port Restriction
+T1125,3,Input Device Analysis
+T1132,1,Per Host Download-Upload Ratio Analysis
+T1132,1,Relay Pattern Analysis
+T1132,1,Remote Terminal Session Detection
+T1132,1,Client-server Payload Profiling
+T1132,1,User Geolocation Logon Pattern Analysis
+T1132,1,Protocol Metadata Anomaly Detection
+T1132,1,Network Traffic Community Deviation
+T1132,1,Inbound Traffic Filtering
+T1132,1,Outbound Traffic Filtering
+T1132.001,2,Client-server Payload Profiling
+T1132.001,2,Network Traffic Community Deviation
+T1132.001,2,Per Host Download-Upload Ratio Analysis
+T1132.001,2,Protocol Metadata Anomaly Detection
+T1132.001,2,Relay Pattern Analysis
+T1132.001,2,Remote Terminal Session Detection
+T1132.001,2,User Geolocation Logon Pattern Analysis
+T1132.001,2,Inbound Traffic Filtering
+T1132.001,2,Outbound Traffic Filtering
+T1134.002,1,Authentication Cache Invalidation
+T1134.002,1,Credential Transmission Scoping
+T1134.002,1,Decoy Session Token
+T1134.002,1,Decoy User Credential
+T1134.002,1,Credential Compromise Scope Analysis
+T1134.002,1,Authentication Cache Invalidation
+T1134.002,1,Credential Transmission Scoping
+T1134.002,1,Decoy Session Token
+T1134.002,1,Decoy User Credential
+T1134.002,1,Credential Compromise Scope Analysis
+T1135,2,no defensive relations yet
+T1137.001,1,File Analysis
+T1137.001,1,Executable Denylisting
+T1137.001,1,Executable Allowlisting
+T1137.001,1,Local File Permissions
+T1137.001,1,Dynamic Analysis
+T1137.001,1,Decoy File
+T1137.001,1,Emulated File Analysis
+T1140,6,Dynamic Analysis
+T1140,6,Emulated File Analysis
+T1140,6,File Analysis
+T1140,6,System Call Analysis
+T1140,6,Process Spawn Analysis
+T1140,6,Local File Permissions
+T1140,6,System Call Filtering
+T1140,6,Executable Allowlisting
+T1140,6,Executable Denylisting
+T1140,6,Decoy File
+T1185,5,Client-server Payload Profiling
+T1185,5,Network Traffic Community Deviation
+T1185,5,Per Host Download-Upload Ratio Analysis
+T1185,5,Protocol Metadata Anomaly Detection
+T1185,5,Remote Terminal Session Detection
+T1185,5,User Geolocation Logon Pattern Analysis
+T1185,5,Inbound Traffic Filtering
+T1185,5,Outbound Traffic Filtering
+T1189,1,Remote Terminal Session Detection
+T1189,1,Network Traffic Community Deviation
+T1189,1,Per Host Download-Upload Ratio Analysis
+T1189,1,Protocol Metadata Anomaly Detection
+T1189,1,URL Analysis
+T1189,1,Homoglyph Detection
+T1189,1,Process Segment Execution Prevention
+T1189,1,Segment Address Offset Randomization
+T1189,1,User Geolocation Logon Pattern Analysis
+T1189,1,Relay Pattern Analysis
+T1189,1,Client-server Payload Profiling
+T1189,1,Inbound Traffic Filtering
+T1189,1,Outbound Traffic Filtering
+T1203,1,Process Code Segment Verification
+T1203,1,Shadow Stack Comparisons
+T1203,1,Segment Address Offset Randomization
+T1203,1,Stack Frame Canary Validation
+T1203,1,Process Segment Execution Prevention
+T1203,1,Memory Boundary Tracking
+T1204,1,User Geolocation Logon Pattern Analysis
+T1204,1,Client-server Payload Profiling
+T1204,1,Network Traffic Community Deviation
+T1204,1,Per Host Download-Upload Ratio Analysis
+T1204,1,Relay Pattern Analysis
+T1204,1,Remote Terminal Session Detection
+T1204,1,Protocol Metadata Anomaly Detection
+T1204,1,File Analysis
+T1204,1,URL Analysis
+T1204,1,Homoglyph Detection
+T1204,1,Decoy File
+T1204,1,Dynamic Analysis
+T1204,1,Emulated File Analysis
+T1204,1,Outbound Traffic Filtering
+T1204,1,Inbound Traffic Filtering
+T1204,1,Executable Allowlisting
+T1204,1,Executable Denylisting
+T1204,1,Local File Permissions
+T1204.001,2,Per Host Download-Upload Ratio Analysis
+T1204.001,2,Protocol Metadata Anomaly Detection
+T1204.001,2,Relay Pattern Analysis
+T1204.001,2,Remote Terminal Session Detection
+T1204.001,2,Homoglyph Detection
+T1204.001,2,URL Analysis
+T1204.001,2,Network Traffic Community Deviation
+T1204.001,2,Inbound Traffic Filtering
+T1204.001,2,Outbound Traffic Filtering
+T1204.001,2,Client-server Payload Profiling
+T1204.001,2,User Geolocation Logon Pattern Analysis
+T1204.002,6,File Analysis
+T1204.002,6,Dynamic Analysis
+T1204.002,6,Emulated File Analysis
+T1204.002,6,Local File Permissions
+T1204.002,6,Executable Allowlisting
+T1204.002,6,Executable Denylisting
+T1204.002,6,Decoy File
+T1210,2,Remote Terminal Session Detection
+T1210,2,Client-server Payload Profiling
+T1210,2,Connection Attempt Analysis
+T1210,2,Network Traffic Community Deviation
+T1210,2,Per Host Download-Upload Ratio Analysis
+T1210,2,Protocol Metadata Anomaly Detection
+T1210,2,Process Code Segment Verification
+T1210,2,Process Segment Execution Prevention
+T1210,2,Segment Address Offset Randomization
+T1210,2,Stack Frame Canary Validation
+T1210,2,Shadow Stack Comparisons
+T1210,2,Memory Boundary Tracking
+T1210,2,User Geolocation Logon Pattern Analysis
+T1210,2,Inbound Traffic Filtering
+T1210,2,Outbound Traffic Filtering
+T1218.007,1,no defensive relations yet
+T1218.009,1,no defensive relations yet
+T1218.010,1,no defensive relations yet
+T1218.011,2,File Analysis
+T1218.011,2,Process Spawn Analysis
+T1218.011,2,System Call Analysis
+T1218.011,2,Local File Permissions
+T1218.011,2,System Call Filtering
+T1218.011,2,Decoy File
+T1219,1,Relay Pattern Analysis
+T1219,1,Remote Terminal Session Detection
+T1219,1,Client-server Payload Profiling
+T1219,1,Network Traffic Community Deviation
+T1219,1,Per Host Download-Upload Ratio Analysis
+T1219,1,Inbound Traffic Filtering
+T1219,1,Outbound Traffic Filtering
+T1219,1,Protocol Metadata Anomaly Detection
+T1219,1,User Geolocation Logon Pattern Analysis
+T1482,3,no defensive relations yet
+T1495,1,no defensive relations yet
+T1497,2,System Call Analysis
+T1497,2,Software Update
+T1497,2,System Call Filtering
+T1497,2,System Call Analysis
+T1497,2,Software Update
+T1497,2,System Call Filtering
+T1497.003,4,System Call Analysis
+T1497.003,4,Software Update
+T1497.003,4,System Call Filtering
+T1497.003,4,System Call Analysis
+T1497.003,4,Software Update
+T1497.003,4,System Call Filtering
+T1518,1,no defensive relations yet
+T1518.001,2,no defensive relations yet
+T1539,1,Decoy User Credential
+T1539,1,Credential Compromise Scope Analysis
+T1539,1,Authentication Cache Invalidation
+T1539,1,Credential Transmission Scoping
+T1542.003,1,Bootloader Authentication
+T1542.003,1,Bootloader Authentication
+T1543.003,2,no defensive relations yet
+T1543.003,2,no defensive relations yet
+T1547,1,Emulated File Analysis
+T1547,1,Dynamic Analysis
+T1547,1,File Analysis
+T1547,1,Local File Permissions
+T1547,1,Software Update
+T1547,1,Decoy File
+T1547,1,Executable Denylisting
+T1547,1,Executable Allowlisting
+T1547,1,System Init Config Analysis
+T1547,1,Emulated File Analysis
+T1547,1,Dynamic Analysis
+T1547,1,File Analysis
+T1547,1,Local File Permissions
+T1547,1,Software Update
+T1547,1,Decoy File
+T1547,1,Executable Denylisting
+T1547,1,Executable Allowlisting
+T1547,1,System Init Config Analysis
+T1547.001,6,Decoy File
+T1547.001,6,File Analysis
+T1547.001,6,Executable Allowlisting
+T1547.001,6,Executable Denylisting
+T1547.001,6,Local File Permissions
+T1547.001,6,System Init Config Analysis
+T1547.001,6,Emulated File Analysis
+T1547.001,6,Dynamic Analysis
+T1547.001,6,Decoy File
+T1547.001,6,File Analysis
+T1547.001,6,Executable Allowlisting
+T1547.001,6,Executable Denylisting
+T1547.001,6,Local File Permissions
+T1547.001,6,System Init Config Analysis
+T1547.001,6,Emulated File Analysis
+T1547.001,6,Dynamic Analysis
+T1548.002,2,Decoy File
+T1548.002,2,File Analysis
+T1548.002,2,Dynamic Analysis
+T1548.002,2,Executable Allowlisting
+T1548.002,2,Executable Denylisting
+T1548.002,2,Emulated File Analysis
+T1548.002,2,Process Spawn Analysis
+T1548.002,2,System Call Analysis
+T1548.002,2,Local File Permissions
+T1548.002,2,System Call Filtering
+T1548.002,2,Decoy File
+T1548.002,2,File Analysis
+T1548.002,2,Dynamic Analysis
+T1548.002,2,Executable Allowlisting
+T1548.002,2,Executable Denylisting
+T1548.002,2,Emulated File Analysis
+T1548.002,2,Process Spawn Analysis
+T1548.002,2,System Call Analysis
+T1548.002,2,Local File Permissions
+T1548.002,2,System Call Filtering
+T1552.001,3,Decoy File
+T1552.001,3,File Analysis
+T1552.001,3,Local File Permissions
+T1552.001,3,Decoy User Credential
+T1552.001,3,Credential Compromise Scope Analysis
+T1552.001,3,Authentication Cache Invalidation
+T1552.001,3,Credential Transmission Scoping
+T1552.002,2,Decoy User Credential
+T1552.002,2,Credential Compromise Scope Analysis
+T1552.002,2,Authentication Cache Invalidation
+T1552.002,2,Credential Transmission Scoping
+T1553.002,2,no defensive relations yet
+T1555,4,no defensive relations yet
+T1555.003,6,no defensive relations yet
+T1559.001,2,no defensive relations yet
+T1560,2,Local File Permissions
+T1560,2,Decoy File
+T1560,2,File Analysis
+T1562.001,5,Process Self-Modification Detection
+T1562.001,5,Process Spawn Analysis
+T1562.001,5,Process Termination
+T1562.001,5,System Daemon Monitoring
+T1562.001,5,Hardware-based Process Isolation
+T1562.001,5,Mandatory Access Control
+T1562.001,5,Process Lineage Analysis
+T1562.004,1,no defensive relations yet
+T1564.001,2,no defensive relations yet
+T1564.003,2,Decoy File
+T1564.003,2,File Analysis
+T1564.003,2,Local File Permissions
+T1566.001,6,Outbound Traffic Filtering
+T1566.001,6,File Analysis
+T1566.001,6,Inbound Traffic Filtering
+T1566.001,6,Emulated File Analysis
+T1566.001,6,Dynamic Analysis
+T1566.001,6,Sender MTA Reputation Analysis
+T1566.001,6,Sender Reputation Analysis
+T1566.001,6,Inbound Session Volume Analysis
+T1566.001,6,Network Traffic Community Deviation
+T1566.001,6,Per Host Download-Upload Ratio Analysis
+T1566.001,6,Client-server Payload Profiling
+T1566.001,6,Remote Terminal Session Detection
+T1566.001,6,Protocol Metadata Anomaly Detection
+T1566.001,6,Homoglyph Detection
+T1566.001,6,Decoy File
+T1566.001,6,User Geolocation Logon Pattern Analysis
+T1566.001,6,Local File Permissions
+T1566.002,3,Per Host Download-Upload Ratio Analysis
+T1566.002,3,Protocol Metadata Anomaly Detection
+T1566.002,3,Remote Terminal Session Detection
+T1566.002,3,Client-server Payload Profiling
+T1566.002,3,Dynamic Analysis
+T1566.002,3,Emulated File Analysis
+T1566.002,3,Inbound Session Volume Analysis
+T1566.002,3,Network Traffic Community Deviation
+T1566.002,3,Sender Reputation Analysis
+T1566.002,3,Sender MTA Reputation Analysis
+T1566.002,3,User Geolocation Logon Pattern Analysis
+T1566.002,3,Decoy File
+T1566.002,3,File Analysis
+T1566.002,3,Homoglyph Detection
+T1566.002,3,URL Analysis
+T1566.002,3,Local File Permissions
+T1566.002,3,Inbound Traffic Filtering
+T1566.002,3,Outbound Traffic Filtering
+T1568.002,2,Client-server Payload Profiling
+T1568.002,2,DNS Traffic Analysis
+T1568.002,2,Network Traffic Community Deviation
+T1568.002,2,Per Host Download-Upload Ratio Analysis
+T1568.002,2,Protocol Metadata Anomaly Detection
+T1568.002,2,Relay Pattern Analysis
+T1568.002,2,Remote Terminal Session Detection
+T1568.002,2,User Geolocation Logon Pattern Analysis
+T1568.002,2,DNS Allowlisting
+T1568.002,2,DNS Denylisting
+T1568.002,2,Inbound Traffic Filtering
+T1568.002,2,Outbound Traffic Filtering
+T1568.002,2,Forward Resolution Domain Denylisting
+T1568.002,2,Reverse Resolution IP Denylisting
+T1571,1,Network Traffic Community Deviation
+T1571,1,Per Host Download-Upload Ratio Analysis
+T1571,1,Client-server Payload Profiling
+T1571,1,Remote Terminal Session Detection
+T1571,1,User Geolocation Logon Pattern Analysis
+T1571,1,Protocol Metadata Anomaly Detection
+T1571,1,Relay Pattern Analysis
+T1571,1,Outbound Traffic Filtering
+T1571,1,Inbound Traffic Filtering
+T1572,1,Remote Terminal Session Detection
+T1572,1,Client-server Payload Profiling
+T1572,1,Network Traffic Community Deviation
+T1572,1,Per Host Download-Upload Ratio Analysis
+T1572,1,Inbound Traffic Filtering
+T1572,1,Protocol Metadata Anomaly Detection
+T1572,1,Relay Pattern Analysis
+T1572,1,Outbound Traffic Filtering
+T1572,1,User Geolocation Logon Pattern Analysis
+T1573.001,4,Relay Pattern Analysis
+T1573.001,4,Remote Terminal Session Detection
+T1573.001,4,Client-server Payload Profiling
+T1573.001,4,Protocol Metadata Anomaly Detection
+T1573.001,4,Outbound Traffic Filtering
+T1573.001,4,Inbound Traffic Filtering
+T1573.001,4,Network Traffic Community Deviation
+T1573.001,4,Per Host Download-Upload Ratio Analysis
+T1573.001,4,User Geolocation Logon Pattern Analysis
+T1615,1,no defensive relations yet
+T1620,1,Process Segment Execution Prevention
+T1620,1,Segment Address Offset Randomization
